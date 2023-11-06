@@ -1,0 +1,186 @@
+[
+  {
+    "cliente": "PROTECTUM SERVICE S.A.C.",
+    "direccion": "JR. TACNA 575 PISO 1, EDIFICIO EMPRESARIAL SAN PEDRO, CHICLAYO",
+    "fecha": 44075,
+    "ruc": 20601127050
+  },
+  {
+    "cliente": "EMPRESA EDITORA EL COMERCIO S.A.",
+    "direccion": "ICA / CL LIMA 372 PISO 3 - ICA /(BF10)/ IP-VPN ACC ETH 10M VOZ 3M PLATA 7M LDN 10M + ROUTER /SICE:20",
+    "fecha": 44054,
+    "ruc": 20143229816
+  },
+  {
+    "cliente": "MANPOWER PROFESSIONAL SERVICES S.A.",
+    "direccion": "PIURA / AV SAN RAMON S/N LT. 6 - UP SAN DIONISIO - EL CHIPE /(BF10) BAJA FINAL/IP-VPN A 5M, PLATA 5M",
+    "fecha": 44054,
+    "ruc": 20329545459
+  },
+  {
+    "cliente": "MACGA S.A.C.",
+    "direccion": "LAMBAYEQUE/ AV SAN JOSE 515 CHICLAYO/ (BF10)BAJA FINAL/IPVPNVIA ETHERN6M PLATA6M LDN 6M+ ROUT/VRF TI",
+    "fecha": 44047,
+    "ruc": 20600454545
+  },
+  {
+    "cliente": "CERRO DE PASCO RESOURCES SUBSIDIARIA DEL PERU S.A.C.",
+    "alias": "Huaral",
+    "descripcion": "Error al ingresar baja ya que era baja solo del equipo de seguridad gestionada y no de todo el servicio",
+    "direccion": "LIMA / ZONA CAMPO SANTANDER SN - SANTA CRUZ DE ANDAMARCA - HUARAL//(BF10)//INFOINTERNET EMP CON ACC ",
+    "fecha": 44014,
+    "ruc": 20516488973
+  },
+  {
+    "cliente": "CORPORACION SAGRA S.A.",
+    "direccion": "Calle Luis Galvani 258, Ate, Peru",
+    "latitud": -12.0647092,
+    "longitud": -76.9752245,
+    "fecha": 43999,
+    "ruc": 20261122651
+  },
+  {
+    "cliente": "PRUEBA DE REGISTRO CLIENTE",
+    "direccion": "PUNO/  JIRÃ“N EL MANTARO # SN(CPNP SECTORIAL JULIACA) /(BF10)BAJA FINAL/ IP-VPN ACCESO ETHERNET A 3M ",
+    "segmento": "Empresas",
+    "fecha": 43986,
+    "ruc": 9999999999
+  },
+  {
+    "cliente": "CMAC PIURA S.A.C.",
+    "segmento": "Empresas",
+    "fecha": 43517,
+    "ruc": 20113604248
+  },
+  {
+    "cliente": "SISTEMAS DE PERFORACION Y GEOTECNIA S.A.C",
+    "descripcion": "INFO_6M",
+    "direccion": " ",
+    "segmento": "Negocios",
+    "fecha": 43431,
+    "ruc": 20549340769
+  },
+  {
+    "cliente": "ASOCIACION DE BANCOS DEL PERU",
+    "descripcion": "Por favor realizar nuevo FO de 10 Mbps",
+    "direccion": " ",
+    "latitud": -12.1092097,
+    "longitud": -77.0160535999999,
+    "segmento": "Empresas",
+    "fecha": 43292,
+    "ruc": 20139491077
+  },
+  {
+    "cliente": "AMERICATEL PERU S.A.",
+    "alias": "L2L 30MB AEROP. TACN",
+    "descripcion": "AMERICATEL solicita un enlace adicional L2L a 30MB en el Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa de TACNA.En dicho aeropuerto ya existe equipo ATN, derivar estudio de TX para habilitar un puerto FETH de dicho equipo. ",
+    "direccion": " Aeropuerto Internacional Coronel FAP Carlos Ciriani Santa Rosa",
+    "latitud": -12.1092097,
+    "longitud": -77.0160535999999,
+    "segmento": "Mayoristas",
+    "fecha": 43292,
+    "ruc": 20264234906
+  },
+  {
+    "cliente": "JR FLORIAN MEDICAL CENTER S.A.C.",
+    "descripcion": "INFOINTERNET 6MB",
+    "direccion": "CAL.JOSE MARTI NRO. 2500 LA ESPERANZA - LA ESPERANZA - LA LIBERTAD - TRUJILLO",
+    "latitud": -12.1092097,
+    "longitud": -77.0160535999999,
+    "segmento": "Negocios",
+    "fecha": 43292,
+    "ruc": 20601323266
+  },
+  {
+    "cliente": "SUPERINTENDENCIA DE BANCA, SEGUROS Y ADMINISTRADORAS PRIVADAS DE FONDOS DE PENSIONES",
+    "direccion": " ",
+    "latitud": -12.1092097,
+    "longitud": -77.0160535999999,
+    "segmento": "Empresas",
+    "fecha": 43292,
+    "ruc": 20131370564
+  },
+  {
+    "cliente": "FINANCIERA CREDINKA S.A. - CREDINKA S.A.",
+    "alias": "FO_APURIMAC",
+    "descripcion": "Se requiere estudio de FO para lo solicitado.",
+    "direccion": " Calle Miscabamba 154-156, Apurimac",
+    "latitud": -12.1092097,
+    "longitud": -77.0160535999999,
+    "segmento": "Empresas",
+    "fecha": 43292,
+    "ruc": 20328178070
+  },
+  {
+    "cliente": "LECHE GLORIA SOCIEDAD ANONIMA - GLORIA S.A.",
+    "alias": "CC_HUACHIPA_FO",
+    "descripcion": "habilitaciÃ³n de FO para servicio IPVPN de 2Mbps por Ethernet. ",
+    "direccion": " PLANTA HUACHIPA GLORIA",
+    "segmento": "Empresas",
+    "fecha": 43287,
+    "ruc": 20100190797
+  },
+  {
+    "cliente": "STATKRAFT PERU S.A.",
+    "alias": "interconexiÃ³n",
+    "direccion": " ",
+    "segmento": "Empresas",
+    "fecha": 43262,
+    "ruc": 20502597061
+  },
+  {
+    "cliente": "CEYESA INGENIERIA ELECTRICA S.A.",
+    "alias": "CALLAO",
+    "descripcion": "INFOINTERNET_20M",
+    "segmento": "Negocios",
+    "fecha": 43227,
+    "ruc": 20100246172
+  },
+  {
+    "cliente": "RIOSOL HOTELES SOCIEDAD ANONIMA CERRADA",
+    "alias": "TARAPOTO",
+    "descripcion": "INFOINTERNET_10M",
+    "direccion": " ",
+    "segmento": "Negocios",
+    "fecha": 43150,
+    "ruc": 20542238462
+  },
+  {
+    "cliente": "RIOSOL HOTELES SOCIEDAD ANONIMA CERRADA",
+    "alias": "SAN",
+    "descripcion": "INFOINTERNET_10M",
+    "direccion": " ",
+    "segmento": "Negocios",
+    "fecha": 43150,
+    "ruc": 20542238462
+  },
+  {
+    "cliente": "TAMBOS PERU S.A.C. - TAMPESAC",
+    "alias": "AREQUIPA",
+    "segmento": "Negocios",
+    "fecha": 43111,
+    "ruc": 20516045397
+  },
+  {
+    "cliente": "UNIV. NAC.  HERMILIO VALDIZAN  HUANUCO",
+    "alias": "UNHEVAL_FMV",
+    "segmento": "Empresas",
+    "fecha": 43087,
+    "ruc": 20172383531
+  },
+  {
+    "cliente": "J.S PRODUCCIONES EIRL",
+    "alias": "HUARAZ",
+    "descripcion": "INFOINTERNET 100M",
+    "segmento": "Negocios",
+    "fecha": 43055,
+    "ruc": 20530986579
+  },
+  {
+    "cliente": "DISTRIBUIDORA BAJOPONTINA S.A.",
+    "alias": "LIMA_fO",
+    "segmento": "Negocios",
+    "fecha": 43046,
+    "ruc": 20382572425
+  }
+]

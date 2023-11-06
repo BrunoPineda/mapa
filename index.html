@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mapa Interactivo VB</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- Enlace a Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    /* Estilo para aplicar la fuente Montserrat a todo el texto */
+    body {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    /* Puedes ajustar otros estilos según tus preferencias */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    p {
+      font-family: "Montserrat", sans-serif;
+    }
+    #map {
+      height: 100vh; /* Establece la altura al 100% del viewport */
+    }
+    /* Estilo para el cuadro en 3D con degradado lineal */
+    body {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(7, 7, 99, 1) 26%,
+        rgba(9, 9, 121, 1) 34%,
+        rgba(6, 68, 160, 1) 54%,
+        rgba(5, 81, 168, 1) 58%,
+        rgba(0, 212, 255, 1) 100%
+      );
+      padding: 20px;
+      border: 1px solid #ced4da;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Estilo para el cuadro en 3D con sombra */
+    .box-3d {
+      background-color: #ffffff;
+      padding: 20px;
+      border: 1px solid #ced4da;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    /* Agrega más reglas CSS según sea necesario para otros elementos */
+  </style>
+  <body>
+    <div class="box-3d container">
+      <!-- Título centrado con Bootstrap -->
+      <div class="page-title text-center">
+        <h1>Sistema de vista de cobertura VB</h1>
+      </div>
+      <div id="filters">
+        <label for="departamento">Departamento:</label>
+        <select id="departamento-filter">
+          <option value="">Todos</option>
+          <!-- Agrega opciones de departamentos aquí -->
+        </select>
+
+        <label for="provincia">Provincia:</label>
+        <select id="provincia-filter">
+          <option value="">Todos</option>
+          <!-- Agrega opciones de provincias aquí -->
+        </select>
+
+        <label for="distrito">Distrito:</label>
+        <select id="distrito-filter">
+          <option value="">Todos</option>
+          <!-- Agrega opciones de distritos aquí -->
+        </select>
+
+        <label for="segmento">Segmento:</label>
+        <select id="segmento-filter">
+          <option value="">Todos</option>
+          <!-- Agrega opciones de segmentos aquí -->
+        </select>
+
+        <button class="btn btn-primary" id="apply-filters">
+          Aplicar Filtros
+        </button>
+        <button class="btn btn-secondary" id="reset-filters-button">
+          Restablecer Filtros
+        </button>
+
+        <label for="ruc">Buscar RUC:</label>
+        <input
+          type="text"
+          id="ruc-text"
+          placeholder="Ingrese un RUC"
+          value="20157036794"
+        />
+        <button class="btn btn-success" id="ruc-search">Buscar</button>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
